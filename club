@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>POX Coin — Memecoin на Solana</title>
+  <style>
+    /* Базовые стили */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0; padding: 0; background: #121212; color: #f0f0f0;
+    }
+    header {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      background: #1a1a1a;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.7);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+      color: #ef4444;
+      cursor: default;
+    }
+    nav a {
+      color: #ddd;
+      margin-left: 25px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #ef4444;
+    }
+    main {
+      padding-top: 80px;
+      max-width: 900px;
+      margin: 0 auto;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    section {
+      margin-bottom: 60px;
+    }
+    h2 {
+      border-bottom: 2px solid #ef4444;
+      padding-bottom: 8px;
+      margin-bottom: 20px;
+    }
+    p {
+      line-height: 1.6;
+      font-size: 1.1rem;
+    }
+    .btn {
+      background-color: #ef4444;
+      color: white;
+      padding: 12px 28px;
+      border: none;
+      border-radius: 30px;
+      font-size: 1.1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 15px;
+    }
+    .btn:hover {
+      background-color: #b02a2a;
+    }
+    .tokenomics-chart {
+      width: 100%;
+      max-width: 400px;
+      margin-top: 15px;
+    }
+    ul.roadmap-list {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    ul.roadmap-list li {
+      margin-bottom: 12px;
+    }
+    .team-member {
+      margin-bottom: 20px;
+    }
+    .team-member h3 {
+      margin: 0;
+      color: #ef4444;
+    }
+    footer {
+      text-align: center;
+      padding: 20px 10px;
+      background: #1a1a1a;
+      font-size: 0.9rem;
+      color: #777;
+    }
+    @media (max-width: 600px) {
+      nav a {
+        margin-left: 15px;
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>POX Coin</h1>
+    <nav>
+      <a href="#about">О проекте</a>
+      <a href="#tokenomics">Токеномика</a>
+      <a href="#roadmap">Roadmap</a>
+      <a href="#team">Команда</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" style="text-align:center; margin-bottom: 60px;">
+      <h2>Memecoin на Solana с уникальными NFT-визитками</h2>
+      <p>Визитки с QR-кодами, философия глаз и песочных часов, геймификация мем-сообщества.</p>
+      <a href="/whitepaper.pdf" class="btn" download>Скачать Whitepaper</a>
+    </section>
+
+    <section id="about">
+      <h2>О проекте</h2>
+      <p>
+        POX Coin — это не просто мемкойн, а новое поколение криптовалюты с глубоким смыслом. 
+        Уникальные NFT-визитки с QR-кодами создают физическую связь с цифровым миром и помогают строить комьюнити.
+        Наша философия — чем больше ты видишь, тем меньше замечаешь. Песочные часы напоминают о ценности времени.
+      </p>
+    </section>
+
+    <section id="tokenomics">
+      <h2>Токеномика</h2>
+      <p>Общий объём токенов: 1,000,000,000 POX</p>
+      <ul>
+        <li>Команда: 15%</li>
+        <li>Комьюнити и маркетинг: 40%</li>
+        <li>Резерв и партнёры: 25%</li>
+        <li>Разработка и инфраструктура: 20%</li>
+      </ul>
+      <img src="https://www.chartjs.org/static/img/chart.svg" alt="Диаграмма распределения" class="tokenomics-chart" />
+    </section>
+
+    <section id="roadmap">
+      <h2>Roadmap</h2>
+      <ul class="roadmap-list">
+        <li>Q3 2025 — Запуск MVP, создание Telegram-бота для визиток</li>
+        <li>Q4 2025 — Пресейл мемкойна, маркетинговая кампания в TikTok и Twitter</li>
+        <li>Q1 2026 — Запуск NFT-визиток, первые офлайн-акции с QR-кодами</li>
+        <li>Q2 2026 — Коллаборации с инфлюенсерами, выход на международные рынки</li>
+      </ul>
+    </section>
+
+    <section id="team">
+      <h2>Команда</h2>
+      <div class="team-member">
+        <h3>Andriiuk Davyd</h3>
+        <p>Основатель и ведущий разработчик. Опыт в блокчейн и крипто-проектах.</p>
+      </div>
+      <!-- Добавь сюда других членов команды -->
+    </section>
+
+    <section id="contacts">
+      <h2>Контакты и соцсети</h2>
+      <p>Email: <a href="mailto:communitykado@gmail.com" style="color:#ef4444;">communitykado@gmail.com</a></p>
+      <p>Telegram: <a href="https://t.me/kado_wrk" target="_blank" style="color:#ef4444;">@kado_wrk</a></p>
+      <p>Instagram: <a href="https://www.instagram.com/andriuk_davyd" target="_blank" style="color:#ef4444;">@andriuk_davyd</a></p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 POX Coin — Все права защищены
+  </footer>
+</body>
+</html>
